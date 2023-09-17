@@ -4,6 +4,7 @@ import Link from "next/link";
 const frm_chofer = () => (
 
     <Layout>
+    <section className="d-flex align-items-center justify-content-center py-4">
         <div className="col-md-6">
             <div className="card card-body border-primary">
                 <div className="row">
@@ -58,7 +59,7 @@ const frm_chofer = () => (
                 </div>
             </div>
         </div>
-
+    </section>
     </Layout>
 
 )

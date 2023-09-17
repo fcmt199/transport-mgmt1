@@ -3,11 +3,12 @@ import Head from 'next/head';
 
 const Layout = ({ children }) => (
     <>
-<Head></Head>
+<Head>
+</Head>
 
     <Navbar />
 
-    <main className='container py-4'>
+    <main className=''>
     {children}
     </main>
 
